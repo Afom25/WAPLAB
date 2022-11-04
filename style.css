@@ -15,8 +15,6 @@ div.detail {
 
 .col-md-3 {
     border-radius: 50%;
-
-
 }
 
 .col-md-3 a {
@@ -32,6 +30,7 @@ div.detail {
     margin-right: auto;
     display: block;
     background-color: rgb(190, 207, 207);
+    text-align: center;
 
 }
 
@@ -60,7 +59,7 @@ h3 {
     color: lightskyblue;
     font-family: 'Tangerine', serif;
     font-size: 30px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h5 {
@@ -101,16 +100,15 @@ h5 {
 
 h1 {
     color: rgb(110, 147, 55);
-    text-decoration: underline;
-    background-color: rgb(247, 243, 238);
+    text-decoration: none;
+    background-color: rgb(215, 215, 214);
 
 }
 
 h2 {
     text-decoration: underline;
-    text-align: center;
     color: rgb(110, 147, 55);
-    background-color: rgb(247, 243, 238);
+    background-color: rgb(215, 215, 214);
 }
 
 .user-text {
