@@ -1,0 +1,151 @@
+.body1 {
+    background-color: rgb(215, 215, 214);
+}
+
+#img-hidri {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+div.detail {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-3 {
+    border-radius: 50%;
+
+
+}
+
+.col-md-3 a {
+    text-decoration: none;
+}
+
+.col-md-1 a {
+    text-decoration: none;
+}
+
+.hidri-text {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgb(190, 207, 207);
+
+}
+
+#weeklab1 {
+    background-color: rgb(190, 207, 207);
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+/* about - lab-2 -----------*/
+#about-html {
+    background-color: rgb(65, 70, 61);
+}
+
+h1 {
+    color: lightskyblue;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+h3 {
+    color: lightskyblue;
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h5 {
+    color: whitesmoke;
+}
+
+.aboutme-details {
+    color: whitesmoke;
+}
+
+.about {
+    color: yellow;
+}
+
+.course-details {
+    color: whitesmoke;
+}
+
+#movielink {
+    color: red;
+}
+
+.movie-details {
+    color: whitesmoke;
+}
+
+.facts-details {
+    color: whitesmoke;
+}
+
+.mood-text {
+    color: whitesmoke;
+}
+
+/* about - lab-2 -----------*/
+
+/* recipe*/
+
+h1 {
+    color: rgb(110, 147, 55);
+    text-decoration: underline;
+    background-color: rgb(247, 243, 238);
+
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(110, 147, 55);
+    background-color: rgb(247, 243, 238);
+}
+
+.user-text {
+    font-style: italic;
+
+}
+
+#underline-text {
+    text-decoration: cadetblue;
+}
+
+h6 {
+    text-decoration: double;
+    text-decoration-color: black;
+}
+
+#underline-list {
+    text-decoration: double;
+}
+
+#link {
+    color: rgb(110, 147, 55);
+}
+
+.user1,
+.user2,
+.user3 {
+    background-color: rgb(255, 255, 67);
+    margin: 30px;
+}
+
+#footer-text {
+    margin: 30px;
+}
+
+#footer-text2 {
+    margin: 40px;
+}
