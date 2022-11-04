@@ -147,3 +147,14 @@ h6 {
 #footer-text2 {
     margin: 40px;
 }
+
+/*------form_------*/
+
+.navbar-brand {
+    color: aqua;
+    text-decoration: dotted;
+}
+
+button.btn btn-light {
+    border-color: red;
+}
