@@ -1,0 +1,35 @@
+.message-body {
+    background: linear-gradient(rgb(108, 108, 162), white);
+
+}
+
+button {
+    width: fit-content;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.container {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.message {
+    border: 1px solid lightgray;
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+
+}
+
+@media (max-width:480px) {
+    .message input {
+        width: 82%;
+    }
+}
