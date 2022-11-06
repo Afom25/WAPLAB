@@ -15,7 +15,6 @@
     border: 5px solid rgb(110, 147, 55);
 }
 
-
 div.detail {
     margin-left: auto;
     margin-right: auto;
@@ -138,7 +137,6 @@ h6 {
 }
 
 /*------form_------*/
-
 .navbar-brand {
     color: aqua;
     text-decoration: dotted;
