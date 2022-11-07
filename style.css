@@ -42,8 +42,8 @@ div.detail {
 }
 
 h1 {
-
-    font-family: 'Tangerine', serif;
+    font-family: "Mumblers Demo";
+    /* font-family: 'Tangerine', serif; */
     font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
     color: rgb(110, 147, 55);
