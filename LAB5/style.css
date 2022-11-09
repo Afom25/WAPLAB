@@ -1,4 +1,12 @@
 .lab5-boody {
-    background-color: antiquewhite;
+    background-color: rgb(227, 209, 187);
     border: 5px solid black;
+}
+
+h5 {
+    /* color: green; */
+}
+
+p {
+    font-size: 15px;
 }
