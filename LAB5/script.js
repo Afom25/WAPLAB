@@ -45,6 +45,15 @@ if (isVowel(char)) {
 
 /// question 4
 
+// const sum = (a) => {
+//     for (let n of a) {
+//         sum += n;
+//     }
+//     return sum;
+// }
+// const a = [1, 2, 3, 4];
+// console.log(`the sum of numbers in ${a} is ${sum(a)}`)
+
 /// question 5 
 
 function reverse(str) {
@@ -71,3 +80,22 @@ arr.forEach(number => {
     }
 });
 console.log(odds); // [1, 3, 5, 7, 9]
+
+///question15
+
+
+var date = new Date();
+var current_date = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+var current_time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+var date_time = current_date + " " + " " + current_time;
+document.getElementById("p1").innerHTML = date_time;
+
+
+const btns = document.querySelectorAll('.question-btn');
+
+btns.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+        const question = (e.currentTarget.parentElement.parentElement);
+        question.classList.toggle('show-answer');
+    });
+});

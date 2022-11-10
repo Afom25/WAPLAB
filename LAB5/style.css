@@ -10,3 +10,36 @@ h5 {
 p {
     font-size: 15px;
 }
+
+.answer1 {
+
+    display: none;
+}
+
+.show-answer .answer1 {
+    display: block;
+}
+
+.minus-btn {
+    display: none;
+}
+
+.show-answer .minus-btn {
+    display: inline;
+}
+
+
+.show-answer .plus-btn {
+    display: none;
+}
+
+#p1 {
+    font-size: larger;
+    display: none;
+
+}
+
+.show-answer #p1 {
+    display: block;
+
+}
