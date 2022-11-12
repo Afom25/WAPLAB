@@ -1,0 +1,9 @@
+.lab7-body {
+    background-color: bisque;
+}
+
+#btn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

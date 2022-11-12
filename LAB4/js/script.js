@@ -23,5 +23,19 @@ window.onload = function () {
     }
 }
 
+// window.onload = function () {
+//     const loginForm = document.getElementById("loginForm");
+//     loginForm.addEventListener("submit", event => {
+
+//         const txtemail = document.getElementById("email");
+//         const txtpassword = document.getElementById("password");
+//         alert(`     
+//        Customer txtemail:${txtemail.value},
+//         Address:${txtpassword.value},
+//      `);
+//     });
+
+// }
+
 
 

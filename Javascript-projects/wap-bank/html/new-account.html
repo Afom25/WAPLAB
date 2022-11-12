@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS472-WAP Bank - Home
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <script src="../js/app.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CS472-WAP Bank</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Open a new Account</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="login">
+                    <input class="form-control me-2" type="text" placeholder="Username" aria-label="Username">
+                    <input class="form-control me-2" type="password" placeholder="Password" aria-label="Password">
+                    <button class="btn btn-outline-success" type="submit">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>
+            New Account Form
+        </h2>
+        <form class="row g-3" id="bank-account-form">
+            <label for="radio-group">Account Ownership</label>
+            <div id="radio-group" role="radio-group" class="row">
+                <div class="col-md-6">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="personalAccount" value="Personal">
+                        <label class="form-check-label" for="personalAccount">
+                            Personal Account
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="businessAccount" value="Business">
+                        <label class="form-check-label" for="businessAccount">
+                            Business Account
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <label for="customer-info">Customer Information</label>
+            <div id="customer-info" class="col-md-12">
+                <div class="col-md-12">
+                    <label for="inputName" class="form-label">Full Name*</label>
+                    <input type="text" class="form-control" id="inputName" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="inputAddress" class="form-label">Address*</label>
+                    <textarea type="text" class="form-control" id="inputAddress" required></textarea>
+                </div>
+            </div>
+            <label for="account-info">Account Information</label>
+            <div id="account-info" class="row">
+            <div class="col-md-6">
+                <label for="inputAccNo" class="form-label">Account Number*</label>
+                <input type="text" class="form-control" id="inputAccNo" placeholder="AC-XXX-XXXX" pattern="AC-\d{3}-\d{4}" required>
+
+            </div>
+            <div class="col-md-6">
+                <label for="inputAccType" class="form-label">Type Of Account*</label>
+                <select class="form-select" id="inputAccType" required>
+                    <option selected>Select the type of account</option>
+                    <option value="Checking">Checking</option>
+                    <option value="Savings">Savings</option>
+                    <option value="Loan">Loan</option>
+                </select>
+            </div>
+            <div class="row justify-content-front gy-1">
+                <div class="col-1">
+                    <button type="reset" class="btn btn-outline-dark">Reset</button>
+                </div>
+                <div class="col-3">
+                    <button type="submit" id="submit-button" class="btn btn-outline-primary">Create New Account</button>
+                </div>
+            </div></div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

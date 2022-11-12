@@ -8,13 +8,13 @@ var c = function (a, b, c) {
         b = a;
         document.write(b);
         b = c;
-        var x = 5;
-
+        var c = 5;
     }
     f(a, b, c);
     document.write(b);
     var x = 10;
 }
+
 c(8, 9, 10);
 document.write(b);
 document.write(x);
